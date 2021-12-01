@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "IT课堂"
+			}
+		}
+	    ,{
+            "path" : "pages/cat/cat",
+            "style" : {
+				"navigationBarTitleText": "课程分类"
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "用户中心"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTitleText": "用户注册"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "用户登录"
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "课程详情"
+			}
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "订单支付"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" : {
+				"navigationBarTitleText": "课程评价"
+			}
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" : {
+				"navigationBarTitleText": "我的优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationStyle":"custom" 
+			}
+        }
+        ,{
+            "path" : "pages/success/success",
+            "style" : {
+				"navigationBarTitleText": "支付成功",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		//"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#49af4f",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#49af4f",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/index.png",
+				"selectedIconPath":"static/icon/index-active.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/cat/cat",
+				"iconPath":"static/icon/cat.png",
+				"selectedIconPath":"static/icon/cat-active.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/user/user",
+				"iconPath":"static/icon/user.png",
+				"selectedIconPath":"static/icon/user-active.png",
+				"text":"我的"
+			}
+		]
+	}
+}
